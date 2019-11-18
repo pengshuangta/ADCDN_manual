@@ -28,7 +28,6 @@
 		130C24F82381684C00B2449E /* ADCDN_InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E92381684C00B2449E /* ADCDN_InterstitialViewController.m */; };
 		130C24F92381684C00B2449E /* ADCDN_RewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24EA2381684C00B2449E /* ADCDN_RewardVideoViewController.m */; };
 		130C24FA2381684C00B2449E /* ADCDN_StringStyleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24EE2381684C00B2449E /* ADCDN_StringStyleTool.m */; };
-		130C24FC238168A600B2449E /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C24FB238168A600B2449E /* ADCDN.framework */; };
 		130C24FF238168C400B2449E /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 130C24FD238168C400B2449E /* BUAdSDK.bundle */; };
 		130C2500238168C400B2449E /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C24FE238168C400B2449E /* BUAdSDK.framework */; };
 		130C250323819E8000B2449E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C250223819E8000B2449E /* StoreKit.framework */; };
@@ -52,6 +51,7 @@
 		130C253D2381A0C700B2449E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253C2381A0C700B2449E /* QuartzCore.framework */; };
 		130C253F2381A0D800B2449E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253E2381A0D800B2449E /* Security.framework */; };
 		130C25412381A0E600B2449E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C25402381A0E600B2449E /* libxml2.tbd */; };
+		13212A7F23829DDE00B3FE27 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13212A7E23829DDE00B3FE27 /* ADCDN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,7 +95,6 @@
 		130C24EF2381684C00B2449E /* ADCDN_StringStyleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_StringStyleTool.h; sourceTree = "<group>"; };
 		130C24F02381684C00B2449E /* ADCDN_SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SplashViewController.h; sourceTree = "<group>"; };
 		130C24F12381684C00B2449E /* ADCDN_NativeCustomRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomRenderViewController.h; sourceTree = "<group>"; };
-		130C24FB238168A600B2449E /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
 		130C24FD238168C400B2449E /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
 		130C24FE238168C400B2449E /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
 		130C250223819E8000B2449E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -140,6 +139,7 @@
 		130C253C2381A0C700B2449E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		130C253E2381A0D800B2449E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		130C25402381A0E600B2449E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		13212A7E23829DDE00B3FE27 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +161,7 @@
 				130C251523819ECD00B2449E /* AdSupport.framework in Frameworks */,
 				130C251323819EC600B2449E /* SystemConfiguration.framework in Frameworks */,
 				130C251123819EBF00B2449E /* CoreTelephony.framework in Frameworks */,
+				13212A7F23829DDE00B3FE27 /* ADCDN.framework in Frameworks */,
 				130C250F23819EB400B2449E /* AVFoundation.framework in Frameworks */,
 				130C250D23819EAD00B2449E /* CoreLocation.framework in Frameworks */,
 				130C250B23819EA700B2449E /* CoreMedia.framework in Frameworks */,
@@ -168,7 +169,6 @@
 				130C250723819E9800B2449E /* WebKit.framework in Frameworks */,
 				130C250523819E8C00B2449E /* MobileCoreServices.framework in Frameworks */,
 				130C250323819E8000B2449E /* StoreKit.framework in Frameworks */,
-				130C24FC238168A600B2449E /* ADCDN.framework in Frameworks */,
 				130C2500238168C400B2449E /* BUAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +199,7 @@
 				130C25242381A06000B2449E /* lib */,
 				130C24FD238168C400B2449E /* BUAdSDK.bundle */,
 				130C24FE238168C400B2449E /* BUAdSDK.framework */,
-				130C24FB238168A600B2449E /* ADCDN.framework */,
+				13212A7E23829DDE00B3FE27 /* ADCDN.framework */,
 				130C24AD2381670900B2449E /* AppDelegate.h */,
 				130C24AE2381670900B2449E /* AppDelegate.m */,
 				130C24CF2381682F00B2449E /* ADCDN_NativeRenderViewController.h */,
