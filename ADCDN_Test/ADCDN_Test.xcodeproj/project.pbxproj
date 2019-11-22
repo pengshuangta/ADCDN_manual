@@ -51,7 +51,7 @@
 		130C253D2381A0C700B2449E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253C2381A0C700B2449E /* QuartzCore.framework */; };
 		130C253F2381A0D800B2449E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253E2381A0D800B2449E /* Security.framework */; };
 		130C25412381A0E600B2449E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C25402381A0E600B2449E /* libxml2.tbd */; };
-		13212A7F23829DDE00B3FE27 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13212A7E23829DDE00B3FE27 /* ADCDN.framework */; };
+		135E49DE2387B4D6008D3E44 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135E49DD2387B4D6008D3E44 /* ADCDN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,7 +139,7 @@
 		130C253C2381A0C700B2449E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		130C253E2381A0D800B2449E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		130C25402381A0E600B2449E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		13212A7E23829DDE00B3FE27 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
+		135E49DD2387B4D6008D3E44 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +161,7 @@
 				130C251523819ECD00B2449E /* AdSupport.framework in Frameworks */,
 				130C251323819EC600B2449E /* SystemConfiguration.framework in Frameworks */,
 				130C251123819EBF00B2449E /* CoreTelephony.framework in Frameworks */,
-				13212A7F23829DDE00B3FE27 /* ADCDN.framework in Frameworks */,
+				135E49DE2387B4D6008D3E44 /* ADCDN.framework in Frameworks */,
 				130C250F23819EB400B2449E /* AVFoundation.framework in Frameworks */,
 				130C250D23819EAD00B2449E /* CoreLocation.framework in Frameworks */,
 				130C250B23819EA700B2449E /* CoreMedia.framework in Frameworks */,
@@ -199,7 +199,7 @@
 				130C25242381A06000B2449E /* lib */,
 				130C24FD238168C400B2449E /* BUAdSDK.bundle */,
 				130C24FE238168C400B2449E /* BUAdSDK.framework */,
-				13212A7E23829DDE00B3FE27 /* ADCDN.framework */,
+				135E49DD2387B4D6008D3E44 /* ADCDN.framework */,
 				130C24AD2381670900B2449E /* AppDelegate.h */,
 				130C24AE2381670900B2449E /* AppDelegate.m */,
 				130C24CF2381682F00B2449E /* ADCDN_NativeRenderViewController.h */,
@@ -231,20 +231,20 @@
 			children = (
 				130C24F02381684C00B2449E /* ADCDN_SplashViewController.h */,
 				130C24E62381684C00B2449E /* ADCDN_SplashViewController.m */,
-				130C24F12381684C00B2449E /* ADCDN_NativeCustomRenderViewController.h */,
 				130C24DF2381684C00B2449E /* ADCDN_BannerViewController.h */,
-				130C24E02381684C00B2449E /* ADCDN_RewardVideoViewController.h */,
-				130C24E12381684C00B2449E /* ADCDN_InterstitialViewController.h */,
-				130C24E22381684C00B2449E /* ADCDN_NativeExpressViewController.m */,
-				130C24E32381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.m */,
-				130C24E42381684C00B2449E /* ADCDN_NativeCustomViewController.m */,
-				130C24E52381684C00B2449E /* ADCDN_NativeCustomRenderViewController.m */,
 				130C24E72381684C00B2449E /* ADCDN_BannerViewController.m */,
-				130C24E82381684C00B2449E /* ADCDN_NativeExpressViewController.h */,
-				130C24E92381684C00B2449E /* ADCDN_InterstitialViewController.m */,
+				130C24E02381684C00B2449E /* ADCDN_RewardVideoViewController.h */,
 				130C24EA2381684C00B2449E /* ADCDN_RewardVideoViewController.m */,
-				130C24EB2381684C00B2449E /* ADCDN_NativeCustomViewController.h */,
+				130C24F12381684C00B2449E /* ADCDN_NativeCustomRenderViewController.h */,
+				130C24E52381684C00B2449E /* ADCDN_NativeCustomRenderViewController.m */,
+				130C24E12381684C00B2449E /* ADCDN_InterstitialViewController.h */,
+				130C24E92381684C00B2449E /* ADCDN_InterstitialViewController.m */,
+				130C24E82381684C00B2449E /* ADCDN_NativeExpressViewController.h */,
+				130C24E22381684C00B2449E /* ADCDN_NativeExpressViewController.m */,
 				130C24EC2381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.h */,
+				130C24E32381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.m */,
+				130C24EB2381684C00B2449E /* ADCDN_NativeCustomViewController.h */,
+				130C24E42381684C00B2449E /* ADCDN_NativeCustomViewController.m */,
 				130C24ED2381684C00B2449E /* Tool */,
 			);
 			path = menu;
