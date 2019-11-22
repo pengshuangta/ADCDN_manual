@@ -8,11 +8,6 @@
 
 #import "ADCDN_NativeExpressViewController.h"
 #import <ADCDN/ADCDN.h>
-#define KappId @"1030013"
-
-
-#define ScreenW self.view.frame.size.width
-#define ScreenH self.view.frame.size.height
 
 @interface ADCDN_NativeExpressViewController ()<ADCDN_NativeExpressAdManagerDelegate,UITableViewDelegate,UITableViewDataSource>
 /** 广告列表 */
@@ -76,13 +71,12 @@
  */
 - (void)ADCDN_NativeExpressAdSuccessToLoad:(ADCDN_NativeExpressAdManager *)nativeExpressAd views:(NSArray<__kindof UIView *> *)views{
     
-    [self.expressAdViews removeAllObjects];//【重要】不能保存太多view，需要在合适的时机手动释放不用的，否则内存会过大
+    [self.expressAdViews removeAllObjects];
     __weak typeof(self) weakSelf = self;
     if (views.count) {
         [self.expressAdViews addObjectsFromArray:views];
         [views enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             UIView *expressView = (UIView *)obj;
-            // 拉去广告成功，需要调用render渲染广告，才能正常显示广告
             [weakSelf.manager render:expressView];
         }];
     }

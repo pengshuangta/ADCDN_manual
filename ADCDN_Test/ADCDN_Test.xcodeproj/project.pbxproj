@@ -12,22 +12,6 @@
 		130C24BD2381670A00B2449E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130C24BC2381670A00B2449E /* Assets.xcassets */; };
 		130C24C02381670A00B2449E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130C24BE2381670A00B2449E /* LaunchScreen.storyboard */; };
 		130C24C32381670A00B2449E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24C22381670A00B2449E /* main.m */; };
-		130C24D72381683000B2449E /* ADCDN_RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24C92381682F00B2449E /* ADCDN_RewardViewController.m */; };
-		130C24D82381683000B2449E /* ADCDN_VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24CA2381682F00B2449E /* ADCDN_VideoViewController.m */; };
-		130C24D92381683000B2449E /* ADCDN_UnRewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24CD2381682F00B2449E /* ADCDN_UnRewardViewController.m */; };
-		130C24DA2381683000B2449E /* ADCDN_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24D02381683000B2449E /* ADCDN_ViewController.m */; };
-		130C24DB2381683000B2449E /* ADCDN_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24D22381683000B2449E /* ADCDN_NavigationController.m */; };
-		130C24DC2381683000B2449E /* ADCDN_NativeRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24D42381683000B2449E /* ADCDN_NativeRenderViewController.m */; };
-		130C24DD2381683000B2449E /* ADCDN_NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24D62381683000B2449E /* ADCDN_NativeViewController.m */; };
-		130C24F22381684C00B2449E /* ADCDN_NativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E22381684C00B2449E /* ADCDN_NativeExpressViewController.m */; };
-		130C24F32381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E32381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.m */; };
-		130C24F42381684C00B2449E /* ADCDN_NativeCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E42381684C00B2449E /* ADCDN_NativeCustomViewController.m */; };
-		130C24F52381684C00B2449E /* ADCDN_NativeCustomRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E52381684C00B2449E /* ADCDN_NativeCustomRenderViewController.m */; };
-		130C24F62381684C00B2449E /* ADCDN_SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E62381684C00B2449E /* ADCDN_SplashViewController.m */; };
-		130C24F72381684C00B2449E /* ADCDN_BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E72381684C00B2449E /* ADCDN_BannerViewController.m */; };
-		130C24F82381684C00B2449E /* ADCDN_InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24E92381684C00B2449E /* ADCDN_InterstitialViewController.m */; };
-		130C24F92381684C00B2449E /* ADCDN_RewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24EA2381684C00B2449E /* ADCDN_RewardVideoViewController.m */; };
-		130C24FA2381684C00B2449E /* ADCDN_StringStyleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24EE2381684C00B2449E /* ADCDN_StringStyleTool.m */; };
 		130C24FF238168C400B2449E /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 130C24FD238168C400B2449E /* BUAdSDK.bundle */; };
 		130C2500238168C400B2449E /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C24FE238168C400B2449E /* BUAdSDK.framework */; };
 		130C250323819E8000B2449E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C250223819E8000B2449E /* StoreKit.framework */; };
@@ -51,7 +35,23 @@
 		130C253D2381A0C700B2449E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253C2381A0C700B2449E /* QuartzCore.framework */; };
 		130C253F2381A0D800B2449E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253E2381A0D800B2449E /* Security.framework */; };
 		130C25412381A0E600B2449E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C25402381A0E600B2449E /* libxml2.tbd */; };
-		135E49DE2387B4D6008D3E44 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135E49DD2387B4D6008D3E44 /* ADCDN.framework */; };
+		135E4A402387EC8A008D3E44 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135E4A3F2387EC89008D3E44 /* ADCDN.framework */; };
+		135E4A512387ECDB008D3E44 /* ADCDN_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A412387ECD7008D3E44 /* ADCDN_ViewController.m */; };
+		135E4A522387ECDB008D3E44 /* ADCDN_RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A422387ECD7008D3E44 /* ADCDN_RewardViewController.m */; };
+		135E4A532387ECDB008D3E44 /* ADCDN_NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A452387ECD8008D3E44 /* ADCDN_NativeViewController.m */; };
+		135E4A542387ECDB008D3E44 /* ADCDN_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A462387ECD8008D3E44 /* ADCDN_NavigationController.m */; };
+		135E4A552387ECDB008D3E44 /* ADCDN_NativeRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A492387ECD9008D3E44 /* ADCDN_NativeRenderViewController.m */; };
+		135E4A562387ECDB008D3E44 /* ADCDN_VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A4F2387ECDA008D3E44 /* ADCDN_VideoViewController.m */; };
+		135E4A572387ECDB008D3E44 /* ADCDN_UnRewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A502387ECDA008D3E44 /* ADCDN_UnRewardViewController.m */; };
+		135E4A6C2387ECFD008D3E44 /* ADCDN_NativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A5C2387ECFD008D3E44 /* ADCDN_NativeExpressViewController.m */; };
+		135E4A6D2387ECFD008D3E44 /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A5D2387ECFD008D3E44 /* ADCDN_UnRewardFullscreenVideoViewController.m */; };
+		135E4A6E2387ECFD008D3E44 /* ADCDN_NativeCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A5E2387ECFD008D3E44 /* ADCDN_NativeCustomViewController.m */; };
+		135E4A6F2387ECFD008D3E44 /* ADCDN_NativeCustomRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A5F2387ECFD008D3E44 /* ADCDN_NativeCustomRenderViewController.m */; };
+		135E4A702387ECFD008D3E44 /* ADCDN_SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A602387ECFD008D3E44 /* ADCDN_SplashViewController.m */; };
+		135E4A712387ECFD008D3E44 /* ADCDN_BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A612387ECFD008D3E44 /* ADCDN_BannerViewController.m */; };
+		135E4A722387ECFD008D3E44 /* ADCDN_InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A632387ECFD008D3E44 /* ADCDN_InterstitialViewController.m */; };
+		135E4A732387ECFD008D3E44 /* ADCDN_RewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A642387ECFD008D3E44 /* ADCDN_RewardVideoViewController.m */; };
+		135E4A742387ECFD008D3E44 /* ADCDN_StringStyleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A682387ECFD008D3E44 /* ADCDN_StringStyleTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,38 +63,6 @@
 		130C24BF2381670A00B2449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		130C24C12381670A00B2449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		130C24C22381670A00B2449E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		130C24C92381682F00B2449E /* ADCDN_RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardViewController.m; sourceTree = "<group>"; };
-		130C24CA2381682F00B2449E /* ADCDN_VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_VideoViewController.m; sourceTree = "<group>"; };
-		130C24CB2381682F00B2449E /* ADCDN_NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeViewController.h; sourceTree = "<group>"; };
-		130C24CC2381682F00B2449E /* ADCDN_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_ViewController.h; sourceTree = "<group>"; };
-		130C24CD2381682F00B2449E /* ADCDN_UnRewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardViewController.m; sourceTree = "<group>"; };
-		130C24CE2381682F00B2449E /* ADCDN_RewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardViewController.h; sourceTree = "<group>"; };
-		130C24CF2381682F00B2449E /* ADCDN_NativeRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeRenderViewController.h; sourceTree = "<group>"; };
-		130C24D02381683000B2449E /* ADCDN_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_ViewController.m; sourceTree = "<group>"; };
-		130C24D12381683000B2449E /* ADCDN_VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_VideoViewController.h; sourceTree = "<group>"; };
-		130C24D22381683000B2449E /* ADCDN_NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NavigationController.m; sourceTree = "<group>"; };
-		130C24D32381683000B2449E /* ADCDN_UnRewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardViewController.h; sourceTree = "<group>"; };
-		130C24D42381683000B2449E /* ADCDN_NativeRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeRenderViewController.m; sourceTree = "<group>"; };
-		130C24D52381683000B2449E /* ADCDN_NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NavigationController.h; sourceTree = "<group>"; };
-		130C24D62381683000B2449E /* ADCDN_NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeViewController.m; sourceTree = "<group>"; };
-		130C24DF2381684C00B2449E /* ADCDN_BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_BannerViewController.h; sourceTree = "<group>"; };
-		130C24E02381684C00B2449E /* ADCDN_RewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardVideoViewController.h; sourceTree = "<group>"; };
-		130C24E12381684C00B2449E /* ADCDN_InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_InterstitialViewController.h; sourceTree = "<group>"; };
-		130C24E22381684C00B2449E /* ADCDN_NativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeExpressViewController.m; sourceTree = "<group>"; };
-		130C24E32381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardFullscreenVideoViewController.m; sourceTree = "<group>"; };
-		130C24E42381684C00B2449E /* ADCDN_NativeCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomViewController.m; sourceTree = "<group>"; };
-		130C24E52381684C00B2449E /* ADCDN_NativeCustomRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomRenderViewController.m; sourceTree = "<group>"; };
-		130C24E62381684C00B2449E /* ADCDN_SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_SplashViewController.m; sourceTree = "<group>"; };
-		130C24E72381684C00B2449E /* ADCDN_BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_BannerViewController.m; sourceTree = "<group>"; };
-		130C24E82381684C00B2449E /* ADCDN_NativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeExpressViewController.h; sourceTree = "<group>"; };
-		130C24E92381684C00B2449E /* ADCDN_InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_InterstitialViewController.m; sourceTree = "<group>"; };
-		130C24EA2381684C00B2449E /* ADCDN_RewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardVideoViewController.m; sourceTree = "<group>"; };
-		130C24EB2381684C00B2449E /* ADCDN_NativeCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomViewController.h; sourceTree = "<group>"; };
-		130C24EC2381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardFullscreenVideoViewController.h; sourceTree = "<group>"; };
-		130C24EE2381684C00B2449E /* ADCDN_StringStyleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_StringStyleTool.m; sourceTree = "<group>"; };
-		130C24EF2381684C00B2449E /* ADCDN_StringStyleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_StringStyleTool.h; sourceTree = "<group>"; };
-		130C24F02381684C00B2449E /* ADCDN_SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SplashViewController.h; sourceTree = "<group>"; };
-		130C24F12381684C00B2449E /* ADCDN_NativeCustomRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomRenderViewController.h; sourceTree = "<group>"; };
 		130C24FD238168C400B2449E /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
 		130C24FE238168C400B2449E /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
 		130C250223819E8000B2449E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -139,7 +107,41 @@
 		130C253C2381A0C700B2449E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		130C253E2381A0D800B2449E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		130C25402381A0E600B2449E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		135E49DD2387B4D6008D3E44 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
+		135E4A3F2387EC89008D3E44 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
+		135E4A412387ECD7008D3E44 /* ADCDN_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_ViewController.m; sourceTree = "<group>"; };
+		135E4A422387ECD7008D3E44 /* ADCDN_RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardViewController.m; sourceTree = "<group>"; };
+		135E4A432387ECD8008D3E44 /* ADCDN_SDKKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SDKKey.h; sourceTree = "<group>"; };
+		135E4A442387ECD8008D3E44 /* ADCDN_NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeViewController.h; sourceTree = "<group>"; };
+		135E4A452387ECD8008D3E44 /* ADCDN_NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeViewController.m; sourceTree = "<group>"; };
+		135E4A462387ECD8008D3E44 /* ADCDN_NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NavigationController.m; sourceTree = "<group>"; };
+		135E4A472387ECD8008D3E44 /* ADCDN_VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_VideoViewController.h; sourceTree = "<group>"; };
+		135E4A482387ECD9008D3E44 /* ADCDN_NativeRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeRenderViewController.h; sourceTree = "<group>"; };
+		135E4A492387ECD9008D3E44 /* ADCDN_NativeRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeRenderViewController.m; sourceTree = "<group>"; };
+		135E4A4A2387ECD9008D3E44 /* ADCDN_UnRewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardViewController.h; sourceTree = "<group>"; };
+		135E4A4B2387ECD9008D3E44 /* ADCDN_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_PrefixHeader.pch; sourceTree = "<group>"; };
+		135E4A4C2387ECD9008D3E44 /* ADCDN_NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NavigationController.h; sourceTree = "<group>"; };
+		135E4A4D2387ECDA008D3E44 /* ADCDN_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_ViewController.h; sourceTree = "<group>"; };
+		135E4A4E2387ECDA008D3E44 /* ADCDN_RewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardViewController.h; sourceTree = "<group>"; };
+		135E4A4F2387ECDA008D3E44 /* ADCDN_VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_VideoViewController.m; sourceTree = "<group>"; };
+		135E4A502387ECDA008D3E44 /* ADCDN_UnRewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardViewController.m; sourceTree = "<group>"; };
+		135E4A592387ECFD008D3E44 /* ADCDN_BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_BannerViewController.h; sourceTree = "<group>"; };
+		135E4A5A2387ECFD008D3E44 /* ADCDN_RewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardVideoViewController.h; sourceTree = "<group>"; };
+		135E4A5B2387ECFD008D3E44 /* ADCDN_InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_InterstitialViewController.h; sourceTree = "<group>"; };
+		135E4A5C2387ECFD008D3E44 /* ADCDN_NativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeExpressViewController.m; sourceTree = "<group>"; };
+		135E4A5D2387ECFD008D3E44 /* ADCDN_UnRewardFullscreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardFullscreenVideoViewController.m; sourceTree = "<group>"; };
+		135E4A5E2387ECFD008D3E44 /* ADCDN_NativeCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomViewController.m; sourceTree = "<group>"; };
+		135E4A5F2387ECFD008D3E44 /* ADCDN_NativeCustomRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomRenderViewController.m; sourceTree = "<group>"; };
+		135E4A602387ECFD008D3E44 /* ADCDN_SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_SplashViewController.m; sourceTree = "<group>"; };
+		135E4A612387ECFD008D3E44 /* ADCDN_BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_BannerViewController.m; sourceTree = "<group>"; };
+		135E4A622387ECFD008D3E44 /* ADCDN_NativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeExpressViewController.h; sourceTree = "<group>"; };
+		135E4A632387ECFD008D3E44 /* ADCDN_InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_InterstitialViewController.m; sourceTree = "<group>"; };
+		135E4A642387ECFD008D3E44 /* ADCDN_RewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardVideoViewController.m; sourceTree = "<group>"; };
+		135E4A652387ECFD008D3E44 /* ADCDN_NativeCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomViewController.h; sourceTree = "<group>"; };
+		135E4A662387ECFD008D3E44 /* ADCDN_UnRewardFullscreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardFullscreenVideoViewController.h; sourceTree = "<group>"; };
+		135E4A682387ECFD008D3E44 /* ADCDN_StringStyleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_StringStyleTool.m; sourceTree = "<group>"; };
+		135E4A692387ECFD008D3E44 /* ADCDN_StringStyleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_StringStyleTool.h; sourceTree = "<group>"; };
+		135E4A6A2387ECFD008D3E44 /* ADCDN_SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SplashViewController.h; sourceTree = "<group>"; };
+		135E4A6B2387ECFD008D3E44 /* ADCDN_NativeCustomRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomRenderViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +163,7 @@
 				130C251523819ECD00B2449E /* AdSupport.framework in Frameworks */,
 				130C251323819EC600B2449E /* SystemConfiguration.framework in Frameworks */,
 				130C251123819EBF00B2449E /* CoreTelephony.framework in Frameworks */,
-				135E49DE2387B4D6008D3E44 /* ADCDN.framework in Frameworks */,
+				135E4A402387EC8A008D3E44 /* ADCDN.framework in Frameworks */,
 				130C250F23819EB400B2449E /* AVFoundation.framework in Frameworks */,
 				130C250D23819EAD00B2449E /* CoreLocation.framework in Frameworks */,
 				130C250B23819EA700B2449E /* CoreMedia.framework in Frameworks */,
@@ -199,24 +201,26 @@
 				130C25242381A06000B2449E /* lib */,
 				130C24FD238168C400B2449E /* BUAdSDK.bundle */,
 				130C24FE238168C400B2449E /* BUAdSDK.framework */,
-				135E49DD2387B4D6008D3E44 /* ADCDN.framework */,
+				135E4A3F2387EC89008D3E44 /* ADCDN.framework */,
 				130C24AD2381670900B2449E /* AppDelegate.h */,
 				130C24AE2381670900B2449E /* AppDelegate.m */,
-				130C24CF2381682F00B2449E /* ADCDN_NativeRenderViewController.h */,
-				130C24D42381683000B2449E /* ADCDN_NativeRenderViewController.m */,
-				130C24CB2381682F00B2449E /* ADCDN_NativeViewController.h */,
-				130C24D62381683000B2449E /* ADCDN_NativeViewController.m */,
-				130C24D52381683000B2449E /* ADCDN_NavigationController.h */,
-				130C24D22381683000B2449E /* ADCDN_NavigationController.m */,
-				130C24CE2381682F00B2449E /* ADCDN_RewardViewController.h */,
-				130C24C92381682F00B2449E /* ADCDN_RewardViewController.m */,
-				130C24D32381683000B2449E /* ADCDN_UnRewardViewController.h */,
-				130C24CD2381682F00B2449E /* ADCDN_UnRewardViewController.m */,
-				130C24D12381683000B2449E /* ADCDN_VideoViewController.h */,
-				130C24CA2381682F00B2449E /* ADCDN_VideoViewController.m */,
-				130C24CC2381682F00B2449E /* ADCDN_ViewController.h */,
-				130C24D02381683000B2449E /* ADCDN_ViewController.m */,
-				130C24DE2381684C00B2449E /* menu */,
+				135E4A432387ECD8008D3E44 /* ADCDN_SDKKey.h */,
+				135E4A4B2387ECD9008D3E44 /* ADCDN_PrefixHeader.pch */,
+				135E4A442387ECD8008D3E44 /* ADCDN_NativeViewController.h */,
+				135E4A452387ECD8008D3E44 /* ADCDN_NativeViewController.m */,
+				135E4A4D2387ECDA008D3E44 /* ADCDN_ViewController.h */,
+				135E4A412387ECD7008D3E44 /* ADCDN_ViewController.m */,
+				135E4A482387ECD9008D3E44 /* ADCDN_NativeRenderViewController.h */,
+				135E4A492387ECD9008D3E44 /* ADCDN_NativeRenderViewController.m */,
+				135E4A4C2387ECD9008D3E44 /* ADCDN_NavigationController.h */,
+				135E4A462387ECD8008D3E44 /* ADCDN_NavigationController.m */,
+				135E4A4E2387ECDA008D3E44 /* ADCDN_RewardViewController.h */,
+				135E4A422387ECD7008D3E44 /* ADCDN_RewardViewController.m */,
+				135E4A4A2387ECD9008D3E44 /* ADCDN_UnRewardViewController.h */,
+				135E4A502387ECDA008D3E44 /* ADCDN_UnRewardViewController.m */,
+				135E4A472387ECD8008D3E44 /* ADCDN_VideoViewController.h */,
+				135E4A4F2387ECDA008D3E44 /* ADCDN_VideoViewController.m */,
+				135E4A582387ECFD008D3E44 /* menu */,
 				130C24BC2381670A00B2449E /* Assets.xcassets */,
 				130C24BE2381670A00B2449E /* LaunchScreen.storyboard */,
 				130C24C12381670A00B2449E /* Info.plist */,
@@ -224,39 +228,6 @@
 				130C24B92381670900B2449E /* ADCDN_Test.xcdatamodeld */,
 			);
 			path = ADCDN_Test;
-			sourceTree = "<group>";
-		};
-		130C24DE2381684C00B2449E /* menu */ = {
-			isa = PBXGroup;
-			children = (
-				130C24F02381684C00B2449E /* ADCDN_SplashViewController.h */,
-				130C24E62381684C00B2449E /* ADCDN_SplashViewController.m */,
-				130C24DF2381684C00B2449E /* ADCDN_BannerViewController.h */,
-				130C24E72381684C00B2449E /* ADCDN_BannerViewController.m */,
-				130C24E02381684C00B2449E /* ADCDN_RewardVideoViewController.h */,
-				130C24EA2381684C00B2449E /* ADCDN_RewardVideoViewController.m */,
-				130C24F12381684C00B2449E /* ADCDN_NativeCustomRenderViewController.h */,
-				130C24E52381684C00B2449E /* ADCDN_NativeCustomRenderViewController.m */,
-				130C24E12381684C00B2449E /* ADCDN_InterstitialViewController.h */,
-				130C24E92381684C00B2449E /* ADCDN_InterstitialViewController.m */,
-				130C24E82381684C00B2449E /* ADCDN_NativeExpressViewController.h */,
-				130C24E22381684C00B2449E /* ADCDN_NativeExpressViewController.m */,
-				130C24EC2381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.h */,
-				130C24E32381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.m */,
-				130C24EB2381684C00B2449E /* ADCDN_NativeCustomViewController.h */,
-				130C24E42381684C00B2449E /* ADCDN_NativeCustomViewController.m */,
-				130C24ED2381684C00B2449E /* Tool */,
-			);
-			path = menu;
-			sourceTree = "<group>";
-		};
-		130C24ED2381684C00B2449E /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				130C24EE2381684C00B2449E /* ADCDN_StringStyleTool.m */,
-				130C24EF2381684C00B2449E /* ADCDN_StringStyleTool.h */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		130C250123819E8000B2449E /* Frameworks */ = {
@@ -313,6 +284,39 @@
 				130C253A2381A06000B2449E /* GDTVideoConfig.h */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		135E4A582387ECFD008D3E44 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				135E4A6A2387ECFD008D3E44 /* ADCDN_SplashViewController.h */,
+				135E4A602387ECFD008D3E44 /* ADCDN_SplashViewController.m */,
+				135E4A592387ECFD008D3E44 /* ADCDN_BannerViewController.h */,
+				135E4A612387ECFD008D3E44 /* ADCDN_BannerViewController.m */,
+				135E4A5B2387ECFD008D3E44 /* ADCDN_InterstitialViewController.h */,
+				135E4A632387ECFD008D3E44 /* ADCDN_InterstitialViewController.m */,
+				135E4A5A2387ECFD008D3E44 /* ADCDN_RewardVideoViewController.h */,
+				135E4A642387ECFD008D3E44 /* ADCDN_RewardVideoViewController.m */,
+				135E4A622387ECFD008D3E44 /* ADCDN_NativeExpressViewController.h */,
+				135E4A5C2387ECFD008D3E44 /* ADCDN_NativeExpressViewController.m */,
+				135E4A662387ECFD008D3E44 /* ADCDN_UnRewardFullscreenVideoViewController.h */,
+				135E4A5D2387ECFD008D3E44 /* ADCDN_UnRewardFullscreenVideoViewController.m */,
+				135E4A652387ECFD008D3E44 /* ADCDN_NativeCustomViewController.h */,
+				135E4A5E2387ECFD008D3E44 /* ADCDN_NativeCustomViewController.m */,
+				135E4A6B2387ECFD008D3E44 /* ADCDN_NativeCustomRenderViewController.h */,
+				135E4A5F2387ECFD008D3E44 /* ADCDN_NativeCustomRenderViewController.m */,
+				135E4A672387ECFD008D3E44 /* Tool */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		135E4A672387ECFD008D3E44 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				135E4A682387ECFD008D3E44 /* ADCDN_StringStyleTool.m */,
+				135E4A692387ECFD008D3E44 /* ADCDN_StringStyleTool.h */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,25 +389,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				130C24F82381684C00B2449E /* ADCDN_InterstitialViewController.m in Sources */,
-				130C24D72381683000B2449E /* ADCDN_RewardViewController.m in Sources */,
-				130C24F42381684C00B2449E /* ADCDN_NativeCustomViewController.m in Sources */,
-				130C24DC2381683000B2449E /* ADCDN_NativeRenderViewController.m in Sources */,
-				130C24D92381683000B2449E /* ADCDN_UnRewardViewController.m in Sources */,
-				130C24DA2381683000B2449E /* ADCDN_ViewController.m in Sources */,
-				130C24F72381684C00B2449E /* ADCDN_BannerViewController.m in Sources */,
+				135E4A722387ECFD008D3E44 /* ADCDN_InterstitialViewController.m in Sources */,
 				130C24C32381670A00B2449E /* main.m in Sources */,
-				130C24DB2381683000B2449E /* ADCDN_NavigationController.m in Sources */,
-				130C24F52381684C00B2449E /* ADCDN_NativeCustomRenderViewController.m in Sources */,
-				130C24FA2381684C00B2449E /* ADCDN_StringStyleTool.m in Sources */,
+				135E4A6E2387ECFD008D3E44 /* ADCDN_NativeCustomViewController.m in Sources */,
+				135E4A512387ECDB008D3E44 /* ADCDN_ViewController.m in Sources */,
+				135E4A562387ECDB008D3E44 /* ADCDN_VideoViewController.m in Sources */,
+				135E4A522387ECDB008D3E44 /* ADCDN_RewardViewController.m in Sources */,
+				135E4A712387ECFD008D3E44 /* ADCDN_BannerViewController.m in Sources */,
 				130C24BB2381670900B2449E /* ADCDN_Test.xcdatamodeld in Sources */,
-				130C24F22381684C00B2449E /* ADCDN_NativeExpressViewController.m in Sources */,
-				130C24D82381683000B2449E /* ADCDN_VideoViewController.m in Sources */,
-				130C24DD2381683000B2449E /* ADCDN_NativeViewController.m in Sources */,
-				130C24F92381684C00B2449E /* ADCDN_RewardVideoViewController.m in Sources */,
-				130C24F32381684C00B2449E /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */,
+				135E4A552387ECDB008D3E44 /* ADCDN_NativeRenderViewController.m in Sources */,
+				135E4A6F2387ECFD008D3E44 /* ADCDN_NativeCustomRenderViewController.m in Sources */,
+				135E4A742387ECFD008D3E44 /* ADCDN_StringStyleTool.m in Sources */,
+				135E4A532387ECDB008D3E44 /* ADCDN_NativeViewController.m in Sources */,
+				135E4A6C2387ECFD008D3E44 /* ADCDN_NativeExpressViewController.m in Sources */,
 				130C24AF2381670900B2449E /* AppDelegate.m in Sources */,
-				130C24F62381684C00B2449E /* ADCDN_SplashViewController.m in Sources */,
+				135E4A542387ECDB008D3E44 /* ADCDN_NavigationController.m in Sources */,
+				135E4A732387ECFD008D3E44 /* ADCDN_RewardVideoViewController.m in Sources */,
+				135E4A6D2387ECFD008D3E44 /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */,
+				135E4A572387ECDB008D3E44 /* ADCDN_UnRewardViewController.m in Sources */,
+				135E4A702387ECFD008D3E44 /* ADCDN_SplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +545,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ADCDN_Test",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ADCDN_Test/ADCDN_PrefixHeader.pch";
 				INFOPLIST_FILE = ADCDN_Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -568,6 +573,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ADCDN_Test",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ADCDN_Test/ADCDN_PrefixHeader.pch";
 				INFOPLIST_FILE = ADCDN_Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

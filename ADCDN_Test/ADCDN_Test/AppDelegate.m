@@ -11,8 +11,7 @@
 #import "ADCDN_NavigationController.h"
 
 #import <ADCDN/ADCDN.h>
-#define KappId @"1030013"
-#define KplcId @"1010021"
+
 @interface AppDelegate ()<ADCDN_SplashAdManagerDelegate>
 
 @end
@@ -25,18 +24,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     ADCDN_ViewController *vc = [[ADCDN_ViewController alloc] init];
     ADCDN_NavigationController * nav = [[ADCDN_NavigationController alloc] initWithRootViewController:vc];
-    vc.modalPresentationStyle = 0;
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
-    /**
-     * ADCDN广告配置
-     */
-    // 初始化配置
+    // 初始化配置(必须)
     [ADCDN_ConfigManager shareManagerWithAppId:KappId];
     
-    // 初始化开屏广告
-    ADCDN_SplashAdManager *manage = [ADCDN_SplashAdManager shareManagerWithAppId:KappId plcId:KplcId];
+    // 初始化ADCDN_SDK的appid
+    ADCDN_SplashAdManager *manage = [ADCDN_SplashAdManager shareManagerWithAppId:KappId plcId:KplcId_Splash];
     manage.window = self.window;
     CGRect frame = [UIScreen mainScreen].bounds;
     manage.wFrame = frame;
