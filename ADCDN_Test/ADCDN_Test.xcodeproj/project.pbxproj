@@ -35,7 +35,7 @@
 		130C253D2381A0C700B2449E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253C2381A0C700B2449E /* QuartzCore.framework */; };
 		130C253F2381A0D800B2449E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253E2381A0D800B2449E /* Security.framework */; };
 		130C25412381A0E600B2449E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C25402381A0E600B2449E /* libxml2.tbd */; };
-		135E4A402387EC8A008D3E44 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135E4A3F2387EC89008D3E44 /* ADCDN.framework */; };
+		131AB21C238B6F7A000476A3 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131AB21B238B6F7A000476A3 /* ADCDN.framework */; };
 		135E4A512387ECDB008D3E44 /* ADCDN_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A412387ECD7008D3E44 /* ADCDN_ViewController.m */; };
 		135E4A522387ECDB008D3E44 /* ADCDN_RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A422387ECD7008D3E44 /* ADCDN_RewardViewController.m */; };
 		135E4A532387ECDB008D3E44 /* ADCDN_NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E4A452387ECD8008D3E44 /* ADCDN_NativeViewController.m */; };
@@ -107,7 +107,7 @@
 		130C253C2381A0C700B2449E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		130C253E2381A0D800B2449E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		130C25402381A0E600B2449E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		135E4A3F2387EC89008D3E44 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
+		131AB21B238B6F7A000476A3 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
 		135E4A412387ECD7008D3E44 /* ADCDN_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_ViewController.m; sourceTree = "<group>"; };
 		135E4A422387ECD7008D3E44 /* ADCDN_RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardViewController.m; sourceTree = "<group>"; };
 		135E4A432387ECD8008D3E44 /* ADCDN_SDKKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SDKKey.h; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 				130C251523819ECD00B2449E /* AdSupport.framework in Frameworks */,
 				130C251323819EC600B2449E /* SystemConfiguration.framework in Frameworks */,
 				130C251123819EBF00B2449E /* CoreTelephony.framework in Frameworks */,
-				135E4A402387EC8A008D3E44 /* ADCDN.framework in Frameworks */,
+				131AB21C238B6F7A000476A3 /* ADCDN.framework in Frameworks */,
 				130C250F23819EB400B2449E /* AVFoundation.framework in Frameworks */,
 				130C250D23819EAD00B2449E /* CoreLocation.framework in Frameworks */,
 				130C250B23819EA700B2449E /* CoreMedia.framework in Frameworks */,
@@ -201,7 +201,7 @@
 				130C25242381A06000B2449E /* lib */,
 				130C24FD238168C400B2449E /* BUAdSDK.bundle */,
 				130C24FE238168C400B2449E /* BUAdSDK.framework */,
-				135E4A3F2387EC89008D3E44 /* ADCDN.framework */,
+				131AB21B238B6F7A000476A3 /* ADCDN.framework */,
 				130C24AD2381670900B2449E /* AppDelegate.h */,
 				130C24AE2381670900B2449E /* AppDelegate.m */,
 				135E4A432387ECD8008D3E44 /* ADCDN_SDKKey.h */,
