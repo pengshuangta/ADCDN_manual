@@ -12,9 +12,6 @@
 		130C24BD2381670A00B2449E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130C24BC2381670A00B2449E /* Assets.xcassets */; };
 		130C24C02381670A00B2449E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130C24BE2381670A00B2449E /* LaunchScreen.storyboard */; };
 		130C24C32381670A00B2449E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C24C22381670A00B2449E /* main.m */; };
-		130C24FF238168C400B2449E /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 130C24FD238168C400B2449E /* BUAdSDK.bundle */; };
-		130C2500238168C400B2449E /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C24FE238168C400B2449E /* BUAdSDK.framework */; };
-		130C250323819E8000B2449E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C250223819E8000B2449E /* StoreKit.framework */; };
 		130C250523819E8C00B2449E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C250423819E8C00B2449E /* MobileCoreServices.framework */; };
 		130C250723819E9800B2449E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C250623819E9800B2449E /* WebKit.framework */; };
 		130C250923819EA000B2449E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C250823819EA000B2449E /* MediaPlayer.framework */; };
@@ -31,30 +28,34 @@
 		130C251F23819F1C00B2449E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C251E23819F1C00B2449E /* libz.tbd */; };
 		130C252123819F2700B2449E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C252023819F2700B2449E /* libsqlite3.tbd */; };
 		130C252323819F2D00B2449E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C252223819F2D00B2449E /* ImageIO.framework */; };
-		130C253B2381A06000B2449E /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C25372381A06000B2449E /* libGDTMobSDK.a */; };
 		130C253D2381A0C700B2449E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253C2381A0C700B2449E /* QuartzCore.framework */; };
 		130C253F2381A0D800B2449E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C253E2381A0D800B2449E /* Security.framework */; };
 		130C25412381A0E600B2449E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 130C25402381A0E600B2449E /* libxml2.tbd */; };
-		132904F9239504E200A9EB9F /* ADCDN_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132904EB239504DC00A9EB9F /* ADCDN_NavigationController.m */; };
-		132904FB239504E200A9EB9F /* ADCDN_NativeRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132904ED239504DC00A9EB9F /* ADCDN_NativeRenderViewController.m */; };
-		132904FC239504E200A9EB9F /* ADCDN_NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132904EE239504DC00A9EB9F /* ADCDN_NativeViewController.m */; };
-		132905162395054F00A9EB9F /* ADCDN_NativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132905042395054F00A9EB9F /* ADCDN_NativeExpressViewController.m */; };
-		132905172395054F00A9EB9F /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132905052395054F00A9EB9F /* ADCDN_UnRewardFullscreenVideoViewController.m */; };
-		132905182395054F00A9EB9F /* ADCDN_NativeCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132905072395054F00A9EB9F /* ADCDN_NativeCustomViewController.m */; };
-		132905192395054F00A9EB9F /* ADCDN_NativeCustomRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132905082395054F00A9EB9F /* ADCDN_NativeCustomRenderViewController.m */; };
-		1329051A2395054F00A9EB9F /* ADCDN_SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132905092395054F00A9EB9F /* ADCDN_SplashViewController.m */; };
-		1329051B2395054F00A9EB9F /* ADCDN_BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1329050A2395054F00A9EB9F /* ADCDN_BannerViewController.m */; };
-		1329051C2395054F00A9EB9F /* ADCDN_InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1329050C2395054F00A9EB9F /* ADCDN_InterstitialViewController.m */; };
-		1329051D2395054F00A9EB9F /* ADCDN_RewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1329050D2395054F00A9EB9F /* ADCDN_RewardVideoViewController.m */; };
-		1329051E2395054F00A9EB9F /* ADCDN_NativeCustomRenderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1329050F2395054F00A9EB9F /* ADCDN_NativeCustomRenderTableViewCell.m */; };
-		1329051F2395054F00A9EB9F /* ADCDN_StringStyleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 132905122395054F00A9EB9F /* ADCDN_StringStyleTool.m */; };
-		137009E923A0ED25001FFDCF /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137009E823A0ED24001FFDCF /* ADCDN.framework */; };
-		137009F023A0ED4A001FFDCF /* ADCDN_VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137009EA23A0ED49001FFDCF /* ADCDN_VideoViewController.m */; };
-		137009F123A0ED4A001FFDCF /* ADCDN_RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137009EC23A0ED49001FFDCF /* ADCDN_RewardViewController.m */; };
-		137009F223A0ED4A001FFDCF /* ADCDN_UnRewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137009ED23A0ED49001FFDCF /* ADCDN_UnRewardViewController.m */; };
-		137009F523A0ED5A001FFDCF /* ADCDN_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137009F423A0ED5A001FFDCF /* ADCDN_ViewController.m */; };
-		137009FA23A0ED6E001FFDCF /* ADCDN_ExpressRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137009F823A0ED6E001FFDCF /* ADCDN_ExpressRewardVideoViewController.m */; };
-		137009FB23A0ED6E001FFDCF /* ADCDN_UnRewardExpressFullscreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137009F923A0ED6E001FFDCF /* ADCDN_UnRewardExpressFullscreenVideoViewController.m */; };
+		1330B43B23B1AEF800884572 /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1330B43723B1AEF800884572 /* libGDTMobSDK.a */; };
+		1330B43E23B1AF0700884572 /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1330B43C23B1AF0600884572 /* BUAdSDK.framework */; };
+		1330B43F23B1AF0700884572 /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1330B43D23B1AF0700884572 /* BUAdSDK.bundle */; };
+		1330B44223B1AF5100884572 /* ADCDN.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1330B44023B1AF5000884572 /* ADCDN.bundle */; };
+		1330B44323B1AF5100884572 /* ADCDN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1330B44123B1AF5100884572 /* ADCDN.framework */; };
+		1330B45423B1B01300884572 /* ADCDN_NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B44A23B1B01200884572 /* ADCDN_NativeViewController.m */; };
+		1330B45523B1B01300884572 /* ADCDN_RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B44D23B1B01200884572 /* ADCDN_RewardViewController.m */; };
+		1330B45623B1B01300884572 /* ADCDN_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B44E23B1B01300884572 /* ADCDN_ViewController.m */; };
+		1330B45723B1B01300884572 /* ADCDN_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B44F23B1B01300884572 /* ADCDN_NavigationController.m */; };
+		1330B45823B1B01300884572 /* ADCDN_NativeRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B45023B1B01300884572 /* ADCDN_NativeRenderViewController.m */; };
+		1330B45923B1B01300884572 /* ADCDN_UnRewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B45223B1B01300884572 /* ADCDN_UnRewardViewController.m */; };
+		1330B45A23B1B01300884572 /* ADCDN_VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B45323B1B01300884572 /* ADCDN_VideoViewController.m */; };
+		1330B4A023B1B09500884572 /* ADCDN_UnRewardExpressFullscreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B48723B1B09500884572 /* ADCDN_UnRewardExpressFullscreenVideoViewController.m */; };
+		1330B4A123B1B09500884572 /* ADCDN_NativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B48A23B1B09500884572 /* ADCDN_NativeExpressViewController.m */; };
+		1330B4A223B1B09500884572 /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B48B23B1B09500884572 /* ADCDN_UnRewardFullscreenVideoViewController.m */; };
+		1330B4A323B1B09500884572 /* ADCDN_ExpressRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B48D23B1B09500884572 /* ADCDN_ExpressRewardVideoViewController.m */; };
+		1330B4A423B1B09500884572 /* ADCDN_NativeCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B48E23B1B09500884572 /* ADCDN_NativeCustomViewController.m */; };
+		1330B4A523B1B09500884572 /* ADCDN_NativeCustomRenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B48F23B1B09500884572 /* ADCDN_NativeCustomRenderViewController.m */; };
+		1330B4A623B1B09500884572 /* ADCDN_SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B49023B1B09500884572 /* ADCDN_SplashViewController.m */; };
+		1330B4A723B1B09500884572 /* ADCDN_GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B49223B1B09500884572 /* ADCDN_GameViewController.m */; };
+		1330B4A823B1B09500884572 /* ADCDN_BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B49323B1B09500884572 /* ADCDN_BannerViewController.m */; };
+		1330B4A923B1B09500884572 /* ADCDN_InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B49523B1B09500884572 /* ADCDN_InterstitialViewController.m */; };
+		1330B4AA23B1B09500884572 /* ADCDN_RewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B49623B1B09500884572 /* ADCDN_RewardVideoViewController.m */; };
+		1330B4AB23B1B09500884572 /* ADCDN_NativeCustomRenderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B49923B1B09500884572 /* ADCDN_NativeCustomRenderTableViewCell.m */; };
+		1330B4AC23B1B09500884572 /* ADCDN_StringStyleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330B49C23B1B09500884572 /* ADCDN_StringStyleTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,9 +67,6 @@
 		130C24BF2381670A00B2449E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		130C24C12381670A00B2449E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		130C24C22381670A00B2449E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		130C24FD238168C400B2449E /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
-		130C24FE238168C400B2449E /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
-		130C250223819E8000B2449E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		130C250423819E8C00B2449E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		130C250623819E9800B2449E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		130C250823819EA000B2449E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -85,72 +83,77 @@
 		130C251E23819F1C00B2449E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		130C252023819F2700B2449E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		130C252223819F2D00B2449E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		130C25252381A06000B2449E /* GDTRewardVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
-		130C25262381A06000B2449E /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
-		130C25272381A06000B2449E /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
-		130C25282381A06000B2449E /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerView.h; sourceTree = "<group>"; };
-		130C25292381A06000B2449E /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
-		130C252A2381A06000B2449E /* GDTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
-		130C252B2381A06000B2449E /* GDTBaseAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTBaseAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
-		130C252C2381A06000B2449E /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
-		130C252D2381A06000B2449E /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAd.h; sourceTree = "<group>"; };
-		130C252E2381A06000B2449E /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
-		130C252F2381A06000B2449E /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
-		130C25302381A06000B2449E /* GDTLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTLogoView.h; sourceTree = "<group>"; };
-		130C25312381A06000B2449E /* GDTMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMediaView.h; sourceTree = "<group>"; };
-		130C25322381A06000B2449E /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
-		130C25332381A06000B2449E /* GDTHybridAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTHybridAd.h; sourceTree = "<group>"; };
-		130C25342381A06000B2449E /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
-		130C25352381A06000B2449E /* GDTSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
-		130C25362381A06000B2449E /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
-		130C25372381A06000B2449E /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
-		130C25382381A06000B2449E /* GDTRewardVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
-		130C25392381A06000B2449E /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
-		130C253A2381A06000B2449E /* GDTVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTVideoConfig.h; sourceTree = "<group>"; };
 		130C253C2381A0C700B2449E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		130C253E2381A0D800B2449E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		130C25402381A0E600B2449E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		132904EA239504DC00A9EB9F /* ADCDN_NativeRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeRenderViewController.h; sourceTree = "<group>"; };
-		132904EB239504DC00A9EB9F /* ADCDN_NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NavigationController.m; sourceTree = "<group>"; };
-		132904ED239504DC00A9EB9F /* ADCDN_NativeRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeRenderViewController.m; sourceTree = "<group>"; };
-		132904EE239504DC00A9EB9F /* ADCDN_NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeViewController.m; sourceTree = "<group>"; };
-		132904F0239504DC00A9EB9F /* ADCDN_SDKKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SDKKey.h; sourceTree = "<group>"; };
-		132904F2239504DD00A9EB9F /* ADCDN_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_PrefixHeader.pch; sourceTree = "<group>"; };
-		132904F3239504DD00A9EB9F /* ADCDN_NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeViewController.h; sourceTree = "<group>"; };
-		132904F8239504E200A9EB9F /* ADCDN_NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NavigationController.h; sourceTree = "<group>"; };
-		132905012395054F00A9EB9F /* ADCDN_BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_BannerViewController.h; sourceTree = "<group>"; };
-		132905022395054F00A9EB9F /* ADCDN_RewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardVideoViewController.h; sourceTree = "<group>"; };
-		132905032395054F00A9EB9F /* ADCDN_InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_InterstitialViewController.h; sourceTree = "<group>"; };
-		132905042395054F00A9EB9F /* ADCDN_NativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeExpressViewController.m; sourceTree = "<group>"; };
-		132905052395054F00A9EB9F /* ADCDN_UnRewardFullscreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardFullscreenVideoViewController.m; sourceTree = "<group>"; };
-		132905062395054F00A9EB9F /* ADCDN_NativeCustomRenderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomRenderTableViewCell.h; sourceTree = "<group>"; };
-		132905072395054F00A9EB9F /* ADCDN_NativeCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomViewController.m; sourceTree = "<group>"; };
-		132905082395054F00A9EB9F /* ADCDN_NativeCustomRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomRenderViewController.m; sourceTree = "<group>"; };
-		132905092395054F00A9EB9F /* ADCDN_SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_SplashViewController.m; sourceTree = "<group>"; };
-		1329050A2395054F00A9EB9F /* ADCDN_BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_BannerViewController.m; sourceTree = "<group>"; };
-		1329050B2395054F00A9EB9F /* ADCDN_NativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeExpressViewController.h; sourceTree = "<group>"; };
-		1329050C2395054F00A9EB9F /* ADCDN_InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_InterstitialViewController.m; sourceTree = "<group>"; };
-		1329050D2395054F00A9EB9F /* ADCDN_RewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardVideoViewController.m; sourceTree = "<group>"; };
-		1329050E2395054F00A9EB9F /* ADCDN_NativeCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomViewController.h; sourceTree = "<group>"; };
-		1329050F2395054F00A9EB9F /* ADCDN_NativeCustomRenderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomRenderTableViewCell.m; sourceTree = "<group>"; };
-		132905102395054F00A9EB9F /* ADCDN_UnRewardFullscreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardFullscreenVideoViewController.h; sourceTree = "<group>"; };
-		132905122395054F00A9EB9F /* ADCDN_StringStyleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_StringStyleTool.m; sourceTree = "<group>"; };
-		132905132395054F00A9EB9F /* ADCDN_StringStyleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_StringStyleTool.h; sourceTree = "<group>"; };
-		132905142395054F00A9EB9F /* ADCDN_SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SplashViewController.h; sourceTree = "<group>"; };
-		132905152395054F00A9EB9F /* ADCDN_NativeCustomRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomRenderViewController.h; sourceTree = "<group>"; };
-		137009E823A0ED24001FFDCF /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
-		137009EA23A0ED49001FFDCF /* ADCDN_VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_VideoViewController.m; sourceTree = "<group>"; };
-		137009EB23A0ED49001FFDCF /* ADCDN_RewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardViewController.h; sourceTree = "<group>"; };
-		137009EC23A0ED49001FFDCF /* ADCDN_RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardViewController.m; sourceTree = "<group>"; };
-		137009ED23A0ED49001FFDCF /* ADCDN_UnRewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardViewController.m; sourceTree = "<group>"; };
-		137009EE23A0ED4A001FFDCF /* ADCDN_UnRewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardViewController.h; sourceTree = "<group>"; };
-		137009EF23A0ED4A001FFDCF /* ADCDN_VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_VideoViewController.h; sourceTree = "<group>"; };
-		137009F323A0ED59001FFDCF /* ADCDN_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_ViewController.h; sourceTree = "<group>"; };
-		137009F423A0ED5A001FFDCF /* ADCDN_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_ViewController.m; sourceTree = "<group>"; };
-		137009F623A0ED6E001FFDCF /* ADCDN_UnRewardExpressFullscreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardExpressFullscreenVideoViewController.h; sourceTree = "<group>"; };
-		137009F723A0ED6E001FFDCF /* ADCDN_ExpressRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_ExpressRewardVideoViewController.h; sourceTree = "<group>"; };
-		137009F823A0ED6E001FFDCF /* ADCDN_ExpressRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_ExpressRewardVideoViewController.m; sourceTree = "<group>"; };
-		137009F923A0ED6E001FFDCF /* ADCDN_UnRewardExpressFullscreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardExpressFullscreenVideoViewController.m; sourceTree = "<group>"; };
+		1330B42523B1AEF800884572 /* GDTRewardVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		1330B42623B1AEF800884572 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		1330B42723B1AEF800884572 /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
+		1330B42823B1AEF800884572 /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedBannerView.h; sourceTree = "<group>"; };
+		1330B42923B1AEF800884572 /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
+		1330B42A23B1AEF800884572 /* GDTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
+		1330B42B23B1AEF800884572 /* GDTBaseAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTBaseAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		1330B42C23B1AEF800884572 /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
+		1330B42D23B1AEF800884572 /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAd.h; sourceTree = "<group>"; };
+		1330B42E23B1AEF800884572 /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		1330B42F23B1AEF800884572 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
+		1330B43023B1AEF800884572 /* GDTLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTLogoView.h; sourceTree = "<group>"; };
+		1330B43123B1AEF800884572 /* GDTMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMediaView.h; sourceTree = "<group>"; };
+		1330B43223B1AEF800884572 /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
+		1330B43323B1AEF800884572 /* GDTHybridAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTHybridAd.h; sourceTree = "<group>"; };
+		1330B43423B1AEF800884572 /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
+		1330B43523B1AEF800884572 /* GDTSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
+		1330B43623B1AEF800884572 /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
+		1330B43723B1AEF800884572 /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		1330B43823B1AEF800884572 /* GDTRewardVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTRewardVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		1330B43923B1AEF800884572 /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
+		1330B43A23B1AEF800884572 /* GDTVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTVideoConfig.h; sourceTree = "<group>"; };
+		1330B43C23B1AF0600884572 /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		1330B43D23B1AF0700884572 /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		1330B44023B1AF5000884572 /* ADCDN.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ADCDN.bundle; sourceTree = "<group>"; };
+		1330B44123B1AF5100884572 /* ADCDN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ADCDN.framework; sourceTree = "<group>"; };
+		1330B44423B1B01100884572 /* ADCDN_SDKKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SDKKey.h; sourceTree = "<group>"; };
+		1330B44523B1B01200884572 /* ADCDN_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_ViewController.h; sourceTree = "<group>"; };
+		1330B44623B1B01200884572 /* ADCDN_UnRewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardViewController.h; sourceTree = "<group>"; };
+		1330B44723B1B01200884572 /* ADCDN_VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_VideoViewController.h; sourceTree = "<group>"; };
+		1330B44823B1B01200884572 /* ADCDN_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_PrefixHeader.pch; sourceTree = "<group>"; };
+		1330B44923B1B01200884572 /* ADCDN_RewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardViewController.h; sourceTree = "<group>"; };
+		1330B44A23B1B01200884572 /* ADCDN_NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeViewController.m; sourceTree = "<group>"; };
+		1330B44B23B1B01200884572 /* ADCDN_NativeRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeRenderViewController.h; sourceTree = "<group>"; };
+		1330B44C23B1B01200884572 /* ADCDN_NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NavigationController.h; sourceTree = "<group>"; };
+		1330B44D23B1B01200884572 /* ADCDN_RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardViewController.m; sourceTree = "<group>"; };
+		1330B44E23B1B01300884572 /* ADCDN_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_ViewController.m; sourceTree = "<group>"; };
+		1330B44F23B1B01300884572 /* ADCDN_NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NavigationController.m; sourceTree = "<group>"; };
+		1330B45023B1B01300884572 /* ADCDN_NativeRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeRenderViewController.m; sourceTree = "<group>"; };
+		1330B45123B1B01300884572 /* ADCDN_NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeViewController.h; sourceTree = "<group>"; };
+		1330B45223B1B01300884572 /* ADCDN_UnRewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardViewController.m; sourceTree = "<group>"; };
+		1330B45323B1B01300884572 /* ADCDN_VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_VideoViewController.m; sourceTree = "<group>"; };
+		1330B48523B1B09500884572 /* ADCDN_GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_GameViewController.h; sourceTree = "<group>"; };
+		1330B48623B1B09500884572 /* ADCDN_BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_BannerViewController.h; sourceTree = "<group>"; };
+		1330B48723B1B09500884572 /* ADCDN_UnRewardExpressFullscreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardExpressFullscreenVideoViewController.m; sourceTree = "<group>"; };
+		1330B48823B1B09500884572 /* ADCDN_RewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_RewardVideoViewController.h; sourceTree = "<group>"; };
+		1330B48923B1B09500884572 /* ADCDN_InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_InterstitialViewController.h; sourceTree = "<group>"; };
+		1330B48A23B1B09500884572 /* ADCDN_NativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeExpressViewController.m; sourceTree = "<group>"; };
+		1330B48B23B1B09500884572 /* ADCDN_UnRewardFullscreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_UnRewardFullscreenVideoViewController.m; sourceTree = "<group>"; };
+		1330B48C23B1B09500884572 /* ADCDN_NativeCustomRenderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomRenderTableViewCell.h; sourceTree = "<group>"; };
+		1330B48D23B1B09500884572 /* ADCDN_ExpressRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_ExpressRewardVideoViewController.m; sourceTree = "<group>"; };
+		1330B48E23B1B09500884572 /* ADCDN_NativeCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomViewController.m; sourceTree = "<group>"; };
+		1330B48F23B1B09500884572 /* ADCDN_NativeCustomRenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomRenderViewController.m; sourceTree = "<group>"; };
+		1330B49023B1B09500884572 /* ADCDN_SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_SplashViewController.m; sourceTree = "<group>"; };
+		1330B49123B1B09500884572 /* ADCDN_UnRewardExpressFullscreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardExpressFullscreenVideoViewController.h; sourceTree = "<group>"; };
+		1330B49223B1B09500884572 /* ADCDN_GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_GameViewController.m; sourceTree = "<group>"; };
+		1330B49323B1B09500884572 /* ADCDN_BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_BannerViewController.m; sourceTree = "<group>"; };
+		1330B49423B1B09500884572 /* ADCDN_NativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeExpressViewController.h; sourceTree = "<group>"; };
+		1330B49523B1B09500884572 /* ADCDN_InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_InterstitialViewController.m; sourceTree = "<group>"; };
+		1330B49623B1B09500884572 /* ADCDN_RewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_RewardVideoViewController.m; sourceTree = "<group>"; };
+		1330B49723B1B09500884572 /* ADCDN_NativeCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomViewController.h; sourceTree = "<group>"; };
+		1330B49823B1B09500884572 /* ADCDN_ExpressRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_ExpressRewardVideoViewController.h; sourceTree = "<group>"; };
+		1330B49923B1B09500884572 /* ADCDN_NativeCustomRenderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_NativeCustomRenderTableViewCell.m; sourceTree = "<group>"; };
+		1330B49A23B1B09500884572 /* ADCDN_UnRewardFullscreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_UnRewardFullscreenVideoViewController.h; sourceTree = "<group>"; };
+		1330B49C23B1B09500884572 /* ADCDN_StringStyleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCDN_StringStyleTool.m; sourceTree = "<group>"; };
+		1330B49D23B1B09500884572 /* ADCDN_StringStyleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_StringStyleTool.h; sourceTree = "<group>"; };
+		1330B49E23B1B09500884572 /* ADCDN_SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_SplashViewController.h; sourceTree = "<group>"; };
+		1330B49F23B1B09500884572 /* ADCDN_NativeCustomRenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCDN_NativeCustomRenderViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,23 +167,22 @@
 				130C252323819F2D00B2449E /* ImageIO.framework in Frameworks */,
 				130C252123819F2700B2449E /* libsqlite3.tbd in Frameworks */,
 				130C251F23819F1C00B2449E /* libz.tbd in Frameworks */,
-				130C253B2381A06000B2449E /* libGDTMobSDK.a in Frameworks */,
 				130C251D23819F0400B2449E /* libc++.tbd in Frameworks */,
 				130C251B23819EF800B2449E /* libresolv.9.tbd in Frameworks */,
 				130C251923819EE600B2449E /* Accelerate.framework in Frameworks */,
+				1330B44323B1AF5100884572 /* ADCDN.framework in Frameworks */,
 				130C251723819ED700B2449E /* CoreMotion.framework in Frameworks */,
 				130C251523819ECD00B2449E /* AdSupport.framework in Frameworks */,
 				130C251323819EC600B2449E /* SystemConfiguration.framework in Frameworks */,
 				130C251123819EBF00B2449E /* CoreTelephony.framework in Frameworks */,
-				137009E923A0ED25001FFDCF /* ADCDN.framework in Frameworks */,
+				1330B43E23B1AF0700884572 /* BUAdSDK.framework in Frameworks */,
+				1330B43B23B1AEF800884572 /* libGDTMobSDK.a in Frameworks */,
 				130C250F23819EB400B2449E /* AVFoundation.framework in Frameworks */,
 				130C250D23819EAD00B2449E /* CoreLocation.framework in Frameworks */,
 				130C250B23819EA700B2449E /* CoreMedia.framework in Frameworks */,
 				130C250923819EA000B2449E /* MediaPlayer.framework in Frameworks */,
 				130C250723819E9800B2449E /* WebKit.framework in Frameworks */,
 				130C250523819E8C00B2449E /* MobileCoreServices.framework in Frameworks */,
-				130C250323819E8000B2449E /* StoreKit.framework in Frameworks */,
-				130C2500238168C400B2449E /* BUAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,29 +209,30 @@
 		130C24AC2381670900B2449E /* ADCDN_Test */ = {
 			isa = PBXGroup;
 			children = (
-				130C25242381A06000B2449E /* lib */,
-				130C24FD238168C400B2449E /* BUAdSDK.bundle */,
-				130C24FE238168C400B2449E /* BUAdSDK.framework */,
-				137009E823A0ED24001FFDCF /* ADCDN.framework */,
+				1330B44023B1AF5000884572 /* ADCDN.bundle */,
+				1330B44123B1AF5100884572 /* ADCDN.framework */,
+				1330B43D23B1AF0700884572 /* BUAdSDK.bundle */,
+				1330B43C23B1AF0600884572 /* BUAdSDK.framework */,
+				1330B42423B1AEF800884572 /* lib */,
 				130C24AE2381670900B2449E /* AppDelegate.m */,
 				130C24AD2381670900B2449E /* AppDelegate.h */,
-				132904F0239504DC00A9EB9F /* ADCDN_SDKKey.h */,
-				132904F2239504DD00A9EB9F /* ADCDN_PrefixHeader.pch */,
-				137009F323A0ED59001FFDCF /* ADCDN_ViewController.h */,
-				137009F423A0ED5A001FFDCF /* ADCDN_ViewController.m */,
-				132904EA239504DC00A9EB9F /* ADCDN_NativeRenderViewController.h */,
-				132904ED239504DC00A9EB9F /* ADCDN_NativeRenderViewController.m */,
-				132904F3239504DD00A9EB9F /* ADCDN_NativeViewController.h */,
-				132904EE239504DC00A9EB9F /* ADCDN_NativeViewController.m */,
-				132904F8239504E200A9EB9F /* ADCDN_NavigationController.h */,
-				132904EB239504DC00A9EB9F /* ADCDN_NavigationController.m */,
-				137009EB23A0ED49001FFDCF /* ADCDN_RewardViewController.h */,
-				137009EC23A0ED49001FFDCF /* ADCDN_RewardViewController.m */,
-				137009EE23A0ED4A001FFDCF /* ADCDN_UnRewardViewController.h */,
-				137009ED23A0ED49001FFDCF /* ADCDN_UnRewardViewController.m */,
-				137009EF23A0ED4A001FFDCF /* ADCDN_VideoViewController.h */,
-				137009EA23A0ED49001FFDCF /* ADCDN_VideoViewController.m */,
-				132905002395054F00A9EB9F /* menu */,
+				1330B44C23B1B01200884572 /* ADCDN_NavigationController.h */,
+				1330B44F23B1B01300884572 /* ADCDN_NavigationController.m */,
+				1330B44523B1B01200884572 /* ADCDN_ViewController.h */,
+				1330B44E23B1B01300884572 /* ADCDN_ViewController.m */,
+				1330B44823B1B01200884572 /* ADCDN_PrefixHeader.pch */,
+				1330B44423B1B01100884572 /* ADCDN_SDKKey.h */,
+				1330B44B23B1B01200884572 /* ADCDN_NativeRenderViewController.h */,
+				1330B45023B1B01300884572 /* ADCDN_NativeRenderViewController.m */,
+				1330B45123B1B01300884572 /* ADCDN_NativeViewController.h */,
+				1330B44A23B1B01200884572 /* ADCDN_NativeViewController.m */,
+				1330B44923B1B01200884572 /* ADCDN_RewardViewController.h */,
+				1330B44D23B1B01200884572 /* ADCDN_RewardViewController.m */,
+				1330B44623B1B01200884572 /* ADCDN_UnRewardViewController.h */,
+				1330B45223B1B01300884572 /* ADCDN_UnRewardViewController.m */,
+				1330B44723B1B01200884572 /* ADCDN_VideoViewController.h */,
+				1330B45323B1B01300884572 /* ADCDN_VideoViewController.m */,
+				1330B48423B1B09500884572 /* menu */,
 				130C24BC2381670A00B2449E /* Assets.xcassets */,
 				130C24BE2381670A00B2449E /* LaunchScreen.storyboard */,
 				130C24C12381670A00B2449E /* Info.plist */,
@@ -261,75 +264,76 @@
 				130C250823819EA000B2449E /* MediaPlayer.framework */,
 				130C250623819E9800B2449E /* WebKit.framework */,
 				130C250423819E8C00B2449E /* MobileCoreServices.framework */,
-				130C250223819E8000B2449E /* StoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		130C25242381A06000B2449E /* lib */ = {
+		1330B42423B1AEF800884572 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				130C25252381A06000B2449E /* GDTRewardVideoAdNetworkAdapterProtocol.h */,
-				130C25262381A06000B2449E /* GDTNativeExpressAdView.h */,
-				130C25272381A06000B2449E /* GDTMobBannerView.h */,
-				130C25282381A06000B2449E /* GDTUnifiedBannerView.h */,
-				130C25292381A06000B2449E /* GDTNativeAd.h */,
-				130C252A2381A06000B2449E /* GDTSDKConfig.h */,
-				130C252B2381A06000B2449E /* GDTBaseAdNetworkAdapterProtocol.h */,
-				130C252C2381A06000B2449E /* GDTMobInterstitial.h */,
-				130C252D2381A06000B2449E /* GDTRewardVideoAd.h */,
-				130C252E2381A06000B2449E /* GDTSplashAd.h */,
-				130C252F2381A06000B2449E /* GDTNativeExpressAd.h */,
-				130C25302381A06000B2449E /* GDTLogoView.h */,
-				130C25312381A06000B2449E /* GDTMediaView.h */,
-				130C25322381A06000B2449E /* GDTUnifiedNativeAdView.h */,
-				130C25332381A06000B2449E /* GDTHybridAd.h */,
-				130C25342381A06000B2449E /* GDTUnifiedNativeAdDataObject.h */,
-				130C25352381A06000B2449E /* GDTSDKDefines.h */,
-				130C25362381A06000B2449E /* GDTUnifiedInterstitialAd.h */,
-				130C25372381A06000B2449E /* libGDTMobSDK.a */,
-				130C25382381A06000B2449E /* GDTRewardVideoAdNetworkConnectorProtocol.h */,
-				130C25392381A06000B2449E /* GDTUnifiedNativeAd.h */,
-				130C253A2381A06000B2449E /* GDTVideoConfig.h */,
+				1330B42523B1AEF800884572 /* GDTRewardVideoAdNetworkAdapterProtocol.h */,
+				1330B42623B1AEF800884572 /* GDTNativeExpressAdView.h */,
+				1330B42723B1AEF800884572 /* GDTMobBannerView.h */,
+				1330B42823B1AEF800884572 /* GDTUnifiedBannerView.h */,
+				1330B42923B1AEF800884572 /* GDTNativeAd.h */,
+				1330B42A23B1AEF800884572 /* GDTSDKConfig.h */,
+				1330B42B23B1AEF800884572 /* GDTBaseAdNetworkAdapterProtocol.h */,
+				1330B42C23B1AEF800884572 /* GDTMobInterstitial.h */,
+				1330B42D23B1AEF800884572 /* GDTRewardVideoAd.h */,
+				1330B42E23B1AEF800884572 /* GDTSplashAd.h */,
+				1330B42F23B1AEF800884572 /* GDTNativeExpressAd.h */,
+				1330B43023B1AEF800884572 /* GDTLogoView.h */,
+				1330B43123B1AEF800884572 /* GDTMediaView.h */,
+				1330B43223B1AEF800884572 /* GDTUnifiedNativeAdView.h */,
+				1330B43323B1AEF800884572 /* GDTHybridAd.h */,
+				1330B43423B1AEF800884572 /* GDTUnifiedNativeAdDataObject.h */,
+				1330B43523B1AEF800884572 /* GDTSDKDefines.h */,
+				1330B43623B1AEF800884572 /* GDTUnifiedInterstitialAd.h */,
+				1330B43723B1AEF800884572 /* libGDTMobSDK.a */,
+				1330B43823B1AEF800884572 /* GDTRewardVideoAdNetworkConnectorProtocol.h */,
+				1330B43923B1AEF800884572 /* GDTUnifiedNativeAd.h */,
+				1330B43A23B1AEF800884572 /* GDTVideoConfig.h */,
 			);
 			path = lib;
 			sourceTree = "<group>";
 		};
-		132905002395054F00A9EB9F /* menu */ = {
+		1330B48423B1B09500884572 /* menu */ = {
 			isa = PBXGroup;
 			children = (
-				132905142395054F00A9EB9F /* ADCDN_SplashViewController.h */,
-				132905092395054F00A9EB9F /* ADCDN_SplashViewController.m */,
-				1329050B2395054F00A9EB9F /* ADCDN_NativeExpressViewController.h */,
-				132905042395054F00A9EB9F /* ADCDN_NativeExpressViewController.m */,
-				132905012395054F00A9EB9F /* ADCDN_BannerViewController.h */,
-				1329050A2395054F00A9EB9F /* ADCDN_BannerViewController.m */,
-				132905032395054F00A9EB9F /* ADCDN_InterstitialViewController.h */,
-				1329050C2395054F00A9EB9F /* ADCDN_InterstitialViewController.m */,
-				132905022395054F00A9EB9F /* ADCDN_RewardVideoViewController.h */,
-				1329050D2395054F00A9EB9F /* ADCDN_RewardVideoViewController.m */,
-				132905102395054F00A9EB9F /* ADCDN_UnRewardFullscreenVideoViewController.h */,
-				132905052395054F00A9EB9F /* ADCDN_UnRewardFullscreenVideoViewController.m */,
-				1329050E2395054F00A9EB9F /* ADCDN_NativeCustomViewController.h */,
-				132905072395054F00A9EB9F /* ADCDN_NativeCustomViewController.m */,
-				132905152395054F00A9EB9F /* ADCDN_NativeCustomRenderViewController.h */,
-				132905082395054F00A9EB9F /* ADCDN_NativeCustomRenderViewController.m */,
-				132905062395054F00A9EB9F /* ADCDN_NativeCustomRenderTableViewCell.h */,
-				1329050F2395054F00A9EB9F /* ADCDN_NativeCustomRenderTableViewCell.m */,
-				137009F723A0ED6E001FFDCF /* ADCDN_ExpressRewardVideoViewController.h */,
-				137009F823A0ED6E001FFDCF /* ADCDN_ExpressRewardVideoViewController.m */,
-				137009F623A0ED6E001FFDCF /* ADCDN_UnRewardExpressFullscreenVideoViewController.h */,
-				137009F923A0ED6E001FFDCF /* ADCDN_UnRewardExpressFullscreenVideoViewController.m */,
-				132905112395054F00A9EB9F /* Tool */,
+				1330B49E23B1B09500884572 /* ADCDN_SplashViewController.h */,
+				1330B49023B1B09500884572 /* ADCDN_SplashViewController.m */,
+				1330B48623B1B09500884572 /* ADCDN_BannerViewController.h */,
+				1330B49323B1B09500884572 /* ADCDN_BannerViewController.m */,
+				1330B48923B1B09500884572 /* ADCDN_InterstitialViewController.h */,
+				1330B49523B1B09500884572 /* ADCDN_InterstitialViewController.m */,
+				1330B49823B1B09500884572 /* ADCDN_ExpressRewardVideoViewController.h */,
+				1330B48D23B1B09500884572 /* ADCDN_ExpressRewardVideoViewController.m */,
+				1330B49123B1B09500884572 /* ADCDN_UnRewardExpressFullscreenVideoViewController.h */,
+				1330B48723B1B09500884572 /* ADCDN_UnRewardExpressFullscreenVideoViewController.m */,
+				1330B48823B1B09500884572 /* ADCDN_RewardVideoViewController.h */,
+				1330B49623B1B09500884572 /* ADCDN_RewardVideoViewController.m */,
+				1330B49423B1B09500884572 /* ADCDN_NativeExpressViewController.h */,
+				1330B48A23B1B09500884572 /* ADCDN_NativeExpressViewController.m */,
+				1330B49A23B1B09500884572 /* ADCDN_UnRewardFullscreenVideoViewController.h */,
+				1330B48B23B1B09500884572 /* ADCDN_UnRewardFullscreenVideoViewController.m */,
+				1330B48C23B1B09500884572 /* ADCDN_NativeCustomRenderTableViewCell.h */,
+				1330B49923B1B09500884572 /* ADCDN_NativeCustomRenderTableViewCell.m */,
+				1330B49723B1B09500884572 /* ADCDN_NativeCustomViewController.h */,
+				1330B48E23B1B09500884572 /* ADCDN_NativeCustomViewController.m */,
+				1330B49F23B1B09500884572 /* ADCDN_NativeCustomRenderViewController.h */,
+				1330B48F23B1B09500884572 /* ADCDN_NativeCustomRenderViewController.m */,
+				1330B48523B1B09500884572 /* ADCDN_GameViewController.h */,
+				1330B49223B1B09500884572 /* ADCDN_GameViewController.m */,
+				1330B49B23B1B09500884572 /* Tool */,
 			);
 			path = menu;
 			sourceTree = "<group>";
 		};
-		132905112395054F00A9EB9F /* Tool */ = {
+		1330B49B23B1B09500884572 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				132905122395054F00A9EB9F /* ADCDN_StringStyleTool.m */,
-				132905132395054F00A9EB9F /* ADCDN_StringStyleTool.h */,
+				1330B49C23B1B09500884572 /* ADCDN_StringStyleTool.m */,
+				1330B49D23B1B09500884572 /* ADCDN_StringStyleTool.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -392,7 +396,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				130C24C02381670A00B2449E /* LaunchScreen.storyboard in Resources */,
-				130C24FF238168C400B2449E /* BUAdSDK.bundle in Resources */,
+				1330B43F23B1AF0700884572 /* BUAdSDK.bundle in Resources */,
+				1330B44223B1AF5100884572 /* ADCDN.bundle in Resources */,
 				130C24BD2381670A00B2449E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,28 +409,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1329051C2395054F00A9EB9F /* ADCDN_InterstitialViewController.m in Sources */,
-				137009FA23A0ED6E001FFDCF /* ADCDN_ExpressRewardVideoViewController.m in Sources */,
-				137009F523A0ED5A001FFDCF /* ADCDN_ViewController.m in Sources */,
-				132904F9239504E200A9EB9F /* ADCDN_NavigationController.m in Sources */,
-				132905182395054F00A9EB9F /* ADCDN_NativeCustomViewController.m in Sources */,
-				1329051F2395054F00A9EB9F /* ADCDN_StringStyleTool.m in Sources */,
+				1330B4A223B1B09500884572 /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */,
+				1330B4A823B1B09500884572 /* ADCDN_BannerViewController.m in Sources */,
+				1330B4AB23B1B09500884572 /* ADCDN_NativeCustomRenderTableViewCell.m in Sources */,
+				1330B4A323B1B09500884572 /* ADCDN_ExpressRewardVideoViewController.m in Sources */,
+				1330B4AC23B1B09500884572 /* ADCDN_StringStyleTool.m in Sources */,
 				130C24C32381670A00B2449E /* main.m in Sources */,
-				1329051B2395054F00A9EB9F /* ADCDN_BannerViewController.m in Sources */,
 				130C24BB2381670900B2449E /* ADCDN_Test.xcdatamodeld in Sources */,
-				132904FB239504E200A9EB9F /* ADCDN_NativeRenderViewController.m in Sources */,
-				137009F223A0ED4A001FFDCF /* ADCDN_UnRewardViewController.m in Sources */,
-				132905192395054F00A9EB9F /* ADCDN_NativeCustomRenderViewController.m in Sources */,
-				132905162395054F00A9EB9F /* ADCDN_NativeExpressViewController.m in Sources */,
-				137009F023A0ED4A001FFDCF /* ADCDN_VideoViewController.m in Sources */,
-				132904FC239504E200A9EB9F /* ADCDN_NativeViewController.m in Sources */,
-				137009FB23A0ED6E001FFDCF /* ADCDN_UnRewardExpressFullscreenVideoViewController.m in Sources */,
-				137009F123A0ED4A001FFDCF /* ADCDN_RewardViewController.m in Sources */,
-				1329051D2395054F00A9EB9F /* ADCDN_RewardVideoViewController.m in Sources */,
-				132905172395054F00A9EB9F /* ADCDN_UnRewardFullscreenVideoViewController.m in Sources */,
+				1330B4AA23B1B09500884572 /* ADCDN_RewardVideoViewController.m in Sources */,
+				1330B45523B1B01300884572 /* ADCDN_RewardViewController.m in Sources */,
+				1330B45A23B1B01300884572 /* ADCDN_VideoViewController.m in Sources */,
+				1330B4A423B1B09500884572 /* ADCDN_NativeCustomViewController.m in Sources */,
+				1330B4A023B1B09500884572 /* ADCDN_UnRewardExpressFullscreenVideoViewController.m in Sources */,
+				1330B4A923B1B09500884572 /* ADCDN_InterstitialViewController.m in Sources */,
+				1330B45423B1B01300884572 /* ADCDN_NativeViewController.m in Sources */,
+				1330B4A623B1B09500884572 /* ADCDN_SplashViewController.m in Sources */,
+				1330B45823B1B01300884572 /* ADCDN_NativeRenderViewController.m in Sources */,
+				1330B4A723B1B09500884572 /* ADCDN_GameViewController.m in Sources */,
 				130C24AF2381670900B2449E /* AppDelegate.m in Sources */,
-				1329051E2395054F00A9EB9F /* ADCDN_NativeCustomRenderTableViewCell.m in Sources */,
-				1329051A2395054F00A9EB9F /* ADCDN_SplashViewController.m in Sources */,
+				1330B45623B1B01300884572 /* ADCDN_ViewController.m in Sources */,
+				1330B45923B1B01300884572 /* ADCDN_UnRewardViewController.m in Sources */,
+				1330B4A523B1B09500884572 /* ADCDN_NativeCustomRenderViewController.m in Sources */,
+				1330B45723B1B01300884572 /* ADCDN_NavigationController.m in Sources */,
+				1330B4A123B1B09500884572 /* ADCDN_NativeExpressViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +564,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5785DZ2W9F;
+				DEVELOPMENT_TEAM = 7R2TNFXPGH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ADCDN_Test",
@@ -586,7 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5785DZ2W9F;
+				DEVELOPMENT_TEAM = 7R2TNFXPGH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ADCDN_Test",
